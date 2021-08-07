@@ -1,5 +1,29 @@
-.main-screen__login {
-  width: 10vw;
+#login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#login__text {
+  font-weight: bold;
   height: 10vh;
-  background-color: tomato;
+  width: 340px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+
+#login__submit {
+  background-color: rgb(61, 61, 61);
+  height: 25px;
+  width: 150px;
+  opacity: 0.6;
+  color: white;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
 }
