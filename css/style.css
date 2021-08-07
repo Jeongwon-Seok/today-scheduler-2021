@@ -1,11 +1,18 @@
 @import "reset.css";
 
-body {
-  overflow: hidden;
+/* Screens */
+
+@import "screens/background.css";
+@import "screens/login.css";
+
+.hidden {
+  display: none;
 }
 
-img {
-  width: 100vw;
-  height: 100vh;
-  opacity: 0.8;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  overflow: hidden;
 }
