@@ -20,6 +20,7 @@
         />
         <input type="submit" value="Sign" id="login__submit" class="hidden" />
       </form>
+
       <div class="data-column hidden">
         <div class="data-column__user-data">
           <div id="weather">
@@ -28,15 +29,16 @@
             <span class="city"></span>
           </div>
         </div>
+
         <div class="data-column__imsi">
           <h2 id="clock">00:00:00</h2>
         </div>
       </div>
 
       <div class="scheduler-column hidden">
-        <div class="scheduler-column__todo-list">
-          <div class="scheduler-column__todo-list-main">
-            <form id="todo-form">
+        <div class="scheduler-column__dailyTodo-list">
+          <div class="scheduler-column__dailyTodo-list-main">
+            <form id="dailyTodo-form">
               <h1 id="greeting" class="hidden"></h1>
               <input
                 type="text"
@@ -44,15 +46,25 @@
                 required
               />
             </form>
-            <ul id="todo-list"></ul>
+            <ul id="dailyTodo-list"></ul>
           </div>
-          <div class="scheduler-column__todo-list-calender">
+
+          <div class="scheduler-column__dailyTodo-list-calender">
             <h2 id="calender">00:00:00</h2>
+            <form id="monthlyTodo-form">
+              <input
+                type="text"
+                placeholder="Write a To Do and Press Enter"
+                required
+              />
+            </form>
+            <ul id="monthlyTodo-list"></ul>
           </div>
         </div>
 
         <div class="scheduler-column__music">
           <div id="music">
+            <img src="#" />
             <span></span>
             <span></span>
           </div>
@@ -71,7 +83,8 @@
     <script src="js/clock.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/quotes.js"></script>
-    <script src="js/todo.js"></script>
+    <script src="js/dailyTodo.js"></script>
+    <script src="js/monthlyTodo.js"></script>
     <script src="js/music.js"></script>
     <script src="js/calender.js"></script>
   </body>

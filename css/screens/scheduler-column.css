@@ -5,7 +5,7 @@
   border-radius: 20px;
 }
 
-.scheduler-column__todo-list {
+.scheduler-column__dailyTodo-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,19 +13,69 @@
   height: 40vh;
 }
 
-.scheduler-column__todo-list-main {
+.scheduler-column__dailyTodo-list-main {
   width: 35vw;
   height: 40vh;
-  background-color: rgba(132, 166, 230, 0.534);
+  background-color: rgba(53, 56, 61, 0.685);
+  border: 2px solid black;
   border-radius: 10px;
   margin-right: 5vw;
 }
 
-.scheduler-column__todo-list-calender {
+#greeting {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 15px 0px 15px 15px;
+  font-size: 25px;
+}
+
+#dailyTodo-form input {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid black;
+  height: 30px;
+  width: 32.5vw;
+  margin-left: 1vw;
+}
+
+#dailyTodo-list li {
+  margin: 15px 0px 5px 15px;
+  font-size: 20px;
+}
+
+#dailyTodo-list button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.scheduler-column__dailyTodo-list-calender {
   width: 15vw;
   height: 40vh;
-  background-color: rgba(125, 195, 236, 0.192);
+  background-color: rgba(255, 255, 255, 0.342);
+  border: 2px solid white;
   border-radius: 10px;
+}
+
+#calender {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 15px 0px 15px 22.5px;
+  font-size: 25px;
+}
+
+#monthlyTodo-form input {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid black;
+  height: 30px;
+  width: 12.5vw;
+  margin-left: 1vw;
+}
+
+#monthlyTodo-list li {
+  margin: 15px 0px 5px 15px;
+  font-size: 20px;
+}
+
+#monthlyTodo-list button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
 }
 
 .scheduler-column__music {
@@ -34,12 +84,31 @@
   align-items: center;
   width: 55vw;
   height: 20vh;
-  background-color: rgba(61, 80, 252, 0.275);
+  background-color: rgba(156, 158, 179, 0.562);
   border-radius: 10px;
   margin-top: 2.5vw;
   color: white;
-  font-family: "Oswald", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
+}
+
+#music {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.scheduler-column__music img {
+  display: block;
+  width: 15vh;
+  height: 15vh;
+  margin: 0px 5vh 0px 3vh;
+  border-radius: 10px;
+}
+
+.scheduler-column__music span {
+  display: block;
 }
 
 .scheduler-column__quote {
@@ -52,4 +121,8 @@
   color: white;
   font-family: "Oswald", sans-serif;
   font-size: 20px;
+}
+
+.hidden {
+  display: none;
 }

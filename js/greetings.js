@@ -22,7 +22,7 @@ function onLoginSubmit(event) {
 }
 
 function paintGreetings(username) {
-  greeting.innerText = `${username}`;
+  greeting.innerText = `${username}'s Daily Plan`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 

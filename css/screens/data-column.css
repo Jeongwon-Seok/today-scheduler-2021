@@ -51,12 +51,12 @@
   width: 13vw;
   height: 47.5vh;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(255, 255, 255);
 }
 
 #clock {
   font-family: "Bungee Hairline", cursive;
   font-weight: bold;
-  color: white;
+  color: black;
   font-size: 30px;
 }
