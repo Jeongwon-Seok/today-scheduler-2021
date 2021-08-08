@@ -1,7 +1,45 @@
 .scheduler-column {
   width: 55vw;
   height: 70vh;
-  background-color: rgba(74, 191, 238, 0.171);
   margin: 0px 0px 0px 0px;
   border-radius: 20px;
+}
+
+.scheduler-column__todo-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55vw;
+  height: 40vh;
+}
+
+.scheduler-column__todo-list-main {
+  width: 35vw;
+  height: 40vh;
+  background-color: rgba(132, 166, 230, 0.534);
+  border-radius: 10px;
+  margin-right: 5vw;
+}
+
+.scheduler-column__todo-list-calender {
+  width: 15vw;
+  height: 40vh;
+  background-color: rgba(125, 195, 236, 0.192);
+  border-radius: 10px;
+}
+
+.scheduler-column__quote {
+  width: 55vw;
+  height: 10vh;
+  background-color: rgba(61, 80, 252, 0.275);
+  border-radius: 10px;
+  margin-top: 2.5vw;
+}
+
+.scheduler-column__music {
+  width: 55vw;
+  height: 10vh;
+  background-color: rgba(61, 80, 252, 0.275);
+  border-radius: 10px;
+  margin-top: 2.5vw;
 }
