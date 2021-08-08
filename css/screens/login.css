@@ -10,7 +10,7 @@
   height: 10vh;
   width: 340px;
   border: none;
-  background-color: black;
+  background-color: inherit;
   color: white;
   font-size: 40px;
 }

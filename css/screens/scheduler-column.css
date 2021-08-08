@@ -28,18 +28,28 @@
   border-radius: 10px;
 }
 
-.scheduler-column__quote {
+.scheduler-column__music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 55vw;
-  height: 10vh;
+  height: 20vh;
   background-color: rgba(61, 80, 252, 0.275);
   border-radius: 10px;
   margin-top: 2.5vw;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
 }
 
-.scheduler-column__music {
+.scheduler-column__quote {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   width: 55vw;
-  height: 10vh;
-  background-color: rgba(61, 80, 252, 0.275);
+  height: 5vh;
   border-radius: 10px;
-  margin-top: 2.5vw;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
 }

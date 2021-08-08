@@ -23,29 +23,56 @@
       <div class="data-column hidden">
         <div class="data-column__user-data">
           <div id="weather">
-            <span></span>
-            <span></span>
+            <span class="temperature"></span>
+            <span class="weather"></span>
+            <span class="city"></span>
           </div>
-          <h2 id="clock">00:00:00</h2>
-          <h1 id="greeting" class="hidden"></h1>
         </div>
-        <div class="data-column__imsi"></div>
+        <div class="data-column__imsi">
+          <h2 id="clock">00:00:00</h2>
+        </div>
       </div>
 
       <div class="scheduler-column hidden">
         <div class="scheduler-column__todo-list">
-          <div class="scheduler-column__todo-list-main"></div>
-          <div class="scheduler-column__todo-list-calender"></div>
+          <div class="scheduler-column__todo-list-main">
+            <form id="todo-form">
+              <h1 id="greeting" class="hidden"></h1>
+              <input
+                type="text"
+                placeholder="Write a To Do and Press Enter"
+                required
+              />
+            </form>
+            <ul id="todo-list"></ul>
+          </div>
+          <div class="scheduler-column__todo-list-calender">
+            <h2 id="calender">00:00:00</h2>
+          </div>
         </div>
 
-        <div class="scheduler-column__quote"></div>
+        <div class="scheduler-column__music">
+          <div id="music">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
 
-        <div class="scheduler-column__music"></div>
+        <div class="scheduler-column__quote">
+          <div id="quote">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
       </div>
     </main>
     <script src="js/background.js"></script>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/music.js"></script>
+    <script src="js/calender.js"></script>
   </body>
 </html>

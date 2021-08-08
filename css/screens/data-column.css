@@ -3,10 +3,10 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 17.5vw;
+  width: 13vw;
   height: 70vh;
   background-color: rgba(255, 255, 255, 0.021);
-  margin: 0px 2.5vw 0px 0px;
+  margin: 0px 4vw 0px 0px;
   border-radius: 20px;
 }
 
@@ -15,11 +15,32 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 17.5vw;
+  width: 13vw;
   height: 20vh;
   border-radius: 10px;
   margin-bottom: 2.5vh;
-  background-color: rgba(121, 200, 224, 0.13);
+  background-color: rgba(0, 0, 0, 0.671);
+}
+
+.temperature {
+  display: block;
+  font-family: "Bungee Hairline", cursive;
+  color: white;
+  font-size: 35px;
+}
+
+.weather {
+  display: block;
+  font-family: "Bungee Hairline", cursive;
+  color: white;
+  font-size: 17px;
+}
+
+.city {
+  display: block;
+  font-family: "Bungee Hairline", cursive;
+  color: white;
+  font-size: 15px;
 }
 
 .data-column__imsi {
@@ -27,15 +48,15 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 17.5vw;
+  width: 13vw;
   height: 47.5vh;
   border-radius: 10px;
-  background-color: rgba(65, 113, 145, 0.349);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #clock {
   font-family: "Bungee Hairline", cursive;
   font-weight: bold;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
 }
