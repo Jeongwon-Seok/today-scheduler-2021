@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" class="css" />
-    <title>Travel manager</title>
+    <title>Today Scheduler</title>
   </head>
   <body>
     <main class="main-screen">
@@ -20,9 +20,23 @@
         />
         <input type="submit" value="Sign" id="login__submit" class="hidden" />
       </form>
-      <h1 id="greeting" class="hidden"></h1>
+      <div class="data-column hidden">
+        <div class="data-column__user-data">
+          <div id="weather">
+            <span></span>
+            <span></span>
+          </div>
+          <h2 id="clock">00:00:00</h2>
+          <h1 id="greeting" class="hidden"></h1>
+        </div>
+        <div class="data-column__imsi"></div>
+      </div>
+
+      <div class="scheduler-column hidden"></div>
     </main>
     <script src="js/background.js"></script>
     <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>

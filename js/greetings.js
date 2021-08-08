@@ -1,7 +1,11 @@
 const loginForm = document.querySelector("#login-form");
 const loginInputText = document.querySelector("#login-form input:first-child");
 const loginInputSubmit = document.querySelector("#login-form input:last-child");
+const firstColumn = document.querySelector(".data-column");
+const secondColumn = document.querySelector(".scheduler-column");
 const greeting = document.querySelector("#greeting");
+const screen = document.querySelector(".main-screen");
+const userData = document.querySelector(".data-column__user-data");
 
 const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
@@ -12,6 +16,8 @@ function onLoginSubmit(event) {
   localStorage.setItem(USERNAME_KEY, username);
   loginInputText.classList.add(HIDDEN_CLASSNAME);
   loginInputSubmit.classList.add(HIDDEN_CLASSNAME);
+  firstColumn.classList.remove(HIDDEN_CLASSNAME);
+  secondColumn.classList.remove(HIDDEN_CLASSNAME);
   paintGreetings(username);
 }
 
@@ -28,4 +34,6 @@ if (savedUsername === null) {
   loginForm.addEventListener("submit", onLoginSubmit);
 } else {
   paintGreetings(savedUsername);
+  firstColumn.classList.remove(HIDDEN_CLASSNAME);
+  secondColumn.classList.remove(HIDDEN_CLASSNAME);
 }

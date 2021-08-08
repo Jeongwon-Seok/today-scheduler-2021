@@ -1,0 +1,41 @@
+.data-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 17.5vw;
+  height: 70vh;
+  background-color: rgba(255, 255, 255, 0.021);
+  margin: 0px 2.5vw 0px 0px;
+  border-radius: 20px;
+}
+
+.data-column__user-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 17.5vw;
+  height: 20vh;
+  border-radius: 10px;
+  margin-bottom: 2.5vh;
+  background-color: rgba(121, 200, 224, 0.13);
+}
+
+.data-column__imsi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 17.5vw;
+  height: 47.5vh;
+  border-radius: 10px;
+  background-color: rgba(65, 113, 145, 0.349);
+}
+
+#clock {
+  font-family: "Bungee Hairline", cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 40px;
+}

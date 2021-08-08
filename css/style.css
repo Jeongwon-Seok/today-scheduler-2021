@@ -4,6 +4,12 @@
 
 @import "screens/background.css";
 @import "screens/login.css";
+@import "screens/data-column.css";
+@import "screens/scheduler-column.css";
+
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap");
 
 .hidden {
   display: none;
