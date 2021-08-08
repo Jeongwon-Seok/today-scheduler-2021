@@ -30,8 +30,10 @@
           </div>
         </div>
 
-        <div class="data-column__imsi">
-          <h2 id="clock">00:00:00</h2>
+        <div class="data-column__clock">
+          <div id="clock__hours"></div>
+          <div id="clock__minutes"></div>
+          <div id="clock__seconds"></div>
         </div>
       </div>
 
@@ -40,11 +42,7 @@
           <div class="scheduler-column__dailyTodo-list-main">
             <form id="dailyTodo-form">
               <h1 id="greeting" class="hidden"></h1>
-              <input
-                type="text"
-                placeholder="Write a To Do and Press Enter"
-                required
-              />
+              <input type="text" placeholder="Daily To Do" required />
             </form>
             <ul id="dailyTodo-list"></ul>
           </div>
@@ -52,11 +50,7 @@
           <div class="scheduler-column__dailyTodo-list-calender">
             <h2 id="calender">00:00:00</h2>
             <form id="monthlyTodo-form">
-              <input
-                type="text"
-                placeholder="Write a To Do and Press Enter"
-                required
-              />
+              <input type="text" placeholder="Monthly To Do" required />
             </form>
             <ul id="monthlyTodo-list"></ul>
           </div>
