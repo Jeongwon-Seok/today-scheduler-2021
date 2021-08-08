@@ -16,8 +16,8 @@
 .scheduler-column__dailyTodo-list-main {
   width: 35vw;
   height: 40vh;
-  background-color: rgba(53, 56, 61, 0.685);
-  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.685);
+  border: 2px solid white;
   border-radius: 10px;
   margin-right: 5vw;
 }
@@ -30,15 +30,24 @@
 
 #dailyTodo-form input {
   background-color: rgba(255, 255, 255, 0);
-  border: 1px solid black;
+  border: none;
+  border-bottom: 0.3px solid white;
   height: 30px;
   width: 32.5vw;
   margin-left: 1vw;
+  margin-bottom: 10px;
+  color: white;
+}
+
+#dailyTodo-form input::placeholder {
+  padding-left: 5px;
+  color: rgba(255, 255, 255, 0.774);
 }
 
 #dailyTodo-list li {
-  margin: 15px 0px 5px 15px;
-  font-size: 20px;
+  margin: 10px 0px 2px 15px;
+  font-size: 15px;
+  color: white;
 }
 
 #dailyTodo-list button {
@@ -49,8 +58,8 @@
 .scheduler-column__dailyTodo-list-calender {
   width: 15vw;
   height: 40vh;
-  background-color: rgba(255, 255, 255, 0.342);
-  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.836);
+  border: 3px solid black;
   border-radius: 10px;
 }
 
@@ -62,7 +71,8 @@
 
 #monthlyTodo-form input {
   background-color: rgba(255, 255, 255, 0);
-  border: 1px solid black;
+  border: none;
+  border-bottom: 1px solid black;
   height: 30px;
   width: 12.5vw;
   margin-left: 1vw;
@@ -84,10 +94,10 @@
   align-items: center;
   width: 55vw;
   height: 20vh;
-  background-color: rgba(156, 158, 179, 0.562);
+  background-color: rgba(255, 255, 255, 0.829);
   border-radius: 10px;
   margin-top: 2.5vw;
-  color: white;
+  color: black;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
@@ -107,8 +117,14 @@
   border-radius: 10px;
 }
 
-.scheduler-column__music span {
+.scheduler-column__music span:nth-child(2) {
   display: block;
+  font-weight: bold;
+}
+
+.scheduler-column__music span:nth-child(3) {
+  display: block;
+  font-style: italic;
 }
 
 .scheduler-column__quote {

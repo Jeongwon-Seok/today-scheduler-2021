@@ -19,7 +19,7 @@
   height: 20vh;
   border-radius: 10px;
   margin-bottom: 2.5vh;
-  background-color: rgba(0, 0, 0, 0.671);
+  background-color: rgba(0, 0, 0, 0.425);
 }
 
 .temperature {
@@ -51,7 +51,7 @@
   width: 13vw;
   height: 47.5vh;
   border-radius: 10px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.658);
 }
 
 #clock {
