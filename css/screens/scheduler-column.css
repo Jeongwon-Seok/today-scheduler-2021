@@ -100,11 +100,11 @@
   align-items: center;
   width: 55vw;
   height: 20vh;
-  background-color: rgba(145, 113, 233, 0.829);
-  border: 3px solid rgba(255, 255, 255, 0.39);
+  background-color: rgba(117, 92, 185, 0.479);
+  border: 3px solid rgb(255, 255, 255);
   border-radius: 10px;
   margin-top: 2.5vw;
-  color: black;
+  color: white;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
 }
@@ -120,18 +120,29 @@
   display: block;
   width: 15vh;
   height: 15vh;
-  margin: 0px 5vh 0px 3vh;
+  margin: 0px 3vh 0px 2vh;
   border-radius: 10px;
 }
 
 .scheduler-column__music span:nth-child(2) {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
+  width: 25vw;
+  height: 15vh;
+  font-size: 30px;
 }
 
 .scheduler-column__music span:nth-child(3) {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   font-style: italic;
+  width: 15vw;
+  height: 15vh;
 }
 
 .scheduler-column__quote {
